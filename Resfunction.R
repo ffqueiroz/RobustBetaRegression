@@ -1,10 +1,10 @@
 #*************************************************************************Description*************************************************************************************************#
-#Residuals of beta regression fit under MLE and SMLE
+#Residuals of beta regression fit under MLE and LSMLE
 #***ARGUMENTS***#
 # y - response variable.
 # X -  regressor matrix for the mean submodel.
 # Z -  regressor matrix for the precision submodel.
-# theta - vector of parameter estimates (via SMLE or MLE) of the observed sample. 
+# theta - vector of parameter estimates (via LSMLE or MLE) of the observed sample. 
 # linkmu - character specification of the link function in the mean submodel. Currently, "logit", "probit", "cloglog", "cauchit", "log", "loglog" are supported. Default is "logit".
 # linkphi - character specification of the link function in the precision submodel. Currently, "identity", "log", "sqrt" are supported. Default is "log".
 #**************************************************************************************************************************************************************************************#
